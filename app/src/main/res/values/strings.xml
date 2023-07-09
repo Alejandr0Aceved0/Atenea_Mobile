@@ -2,5 +2,7 @@
     <string name="app_name">Reto1Movil</string>
     <string name="btn_sumar">SUMAR</string>
     <string name="btn_restar">RESTAR</string>
-    <string name="txt_resultado">Resultado</string>
+    <string name="txt_resultado">"Resultado "</string>
+    <string name="number_a_hint">Ingrese un numero A</string>
+    <string name="number_b_hint">Ingrese un numero B</string>
 </resources>
