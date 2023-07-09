@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reto1Movil</string>
+    <string name="btn_sumar">ADD</string>
+    <string name="btn_restar">SUBTRACT</string>
+    <string name="txt_resultado">"Result "</string>
+    <string name="number_a_hint">Enter number A</string>
+    <string name="number_b_hint">Enter number B</string>
+</resources>
