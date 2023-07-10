@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Reto1Movil</string>
+    <string name="app_name">Calculadora</string>
     <string name="btn_sumar">SUMAR</string>
     <string name="btn_restar">RESTAR</string>
     <string name="txt_resultado">"Resultado "</string>
