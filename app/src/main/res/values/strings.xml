@@ -5,4 +5,6 @@
     <string name="txt_resultado">"Resultado "</string>
     <string name="number_a_hint">Ingrese un numero A</string>
     <string name="number_b_hint">Ingrese un numero B</string>
+    <string name="item_contactenos">Contáctenos</string>
+    <string name="item_compartir">Compartir</string>
 </resources>

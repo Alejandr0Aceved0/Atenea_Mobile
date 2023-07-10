@@ -6,4 +6,6 @@
     <string name="txt_resultado">"Result "</string>
     <string name="number_a_hint">Enter number A</string>
     <string name="number_b_hint">Enter number B</string>
+    <string name="item_contactenos">Contact us</string>
+    <string name="item_compartir">Share</string>
 </resources>
