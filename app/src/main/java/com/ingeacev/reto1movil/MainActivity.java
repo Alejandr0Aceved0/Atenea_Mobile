@@ -1,14 +1,17 @@
 package com.ingeacev.reto1movil;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,5 +57,18 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater(); //Permite asignar una vista tipó menu a la vista actual <menu>
         inflater.inflate(R.menu.menu_home, menu);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {//imte es obtener el id de cada opcion del menu
+        int id = item.getItemId();
+
+        if (id == R.id.item_compartir){
+            Toast.makeText(this, "ITEM COMPARTIR", Toast.LENGTH_LONG).show();
+        }else if (id == R.id.item_contactenos){
+            Toast.makeText(this, "ITEM CONTACTENOS", Toast.LENGTH_LONG).show();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
